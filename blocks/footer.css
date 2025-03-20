@@ -1,0 +1,33 @@
+.footer{
+    margin: 92px 0 24px;
+    justify-items: center;
+    text-align: center;    
+}
+
+.footer__author{
+    width: 166px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media (max-width:1024px) { 
+    .footer{
+        width: 768px;
+        margin-top: 88px;
+    } 
+}
+
+
+@media (max-width:544px) { 
+    .footer{
+        width: 320px;
+        height: 14px;
+        margin-top: 64px;
+    }
+    .footer__author{
+        line-height: 14px
+    }
+    
+    }
