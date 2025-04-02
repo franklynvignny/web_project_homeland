@@ -2,15 +2,19 @@
 # Web_project_homeland
 
 ## 📄 Descrição  
-Este projeto foi proposto pela **Tripleten** com o objetivo de praticar conceitos de **responsividade** em páginas web. A proposta visa aprimorar habilidades práticas na construção de layouts adaptáveis a diferentes dispositivos e tamanhos de tela.
+Este projeto foi desenvolvido como parte do apredizado sugerido pelo bootcaamp da **Tripleten**, com o objetivo de praticar e aprimorar os conceitos de responsividade em páginas web. O foco principal é a construção de layouts adaptáveis para diferentes tamanhos de tela, garantindo uma experiência fluida e consistente para os usuários.
+
 
 ## Funcionalidades  
-- Layout totalmente responsivo  
-- Utilização de `@font-face` para fontes personalizadas  
+✔️ Aprimorar habilidades técnicas em HTML e CSS.
+✔️ Praticar a criação de layouts flexíveis e responsivos.
+✔️ Utilizar CSS Grid para organizar a estrutura da página de forma eficiente.
+✔️ Melhorar a experiência do usuário em diferentes dispositivos,
 
 ## Tecnologias Utilizadas  
-- **HTML5**  
-- **CSS3**
+  • HTML5 → Estruturação semântica da página.
+	•	CSS3 (Display Grid, Flexbox e Media Queries) → Responsividade e layout adaptável.
+	•	Boa Prática de Design Responsivo → Adaptação para diferentes resoluções de tela.
 
 ## Link para o repositório  
 [Web_project_homeland no GitHub](<>)
