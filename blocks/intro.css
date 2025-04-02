@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
     }
 
 .intro__text-title{
@@ -73,7 +74,6 @@
         width: 720px;
         height: 182px;
     }
-
    
 }
 
