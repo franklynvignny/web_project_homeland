@@ -6,15 +6,15 @@ Este projeto foi desenvolvido como parte do apredizado sugerido pelo bootcaamp d
 
 
 ## Funcionalidades  
-✔️ Aprimorar habilidades técnicas em HTML e CSS.
-✔️ Praticar a criação de layouts flexíveis e responsivos.
-✔️ Utilizar CSS Grid para organizar a estrutura da página de forma eficiente.
-✔️ Melhorar a experiência do usuário em diferentes dispositivos,
+✔️ Aprimorar habilidades técnicas em HTML e CSS.  
+✔️ Praticar a criação de layouts flexíveis e responsivos.  
+✔️ Utilizar CSS Grid para organizar a estrutura da página de forma eficiente.  
+✔️ Melhorar a experiência do usuário em diferentes dispositivos.  
 
 ## Tecnologias Utilizadas  
-  • HTML5 → Estruturação semântica da página.
-	•	CSS3 (Display Grid, Flexbox e Media Queries) → Responsividade e layout adaptável.
-	•	Boa Prática de Design Responsivo → Adaptação para diferentes resoluções de tela.
+• HTML5 → Estruturação semântica da página.  
+• CSS3 (Display Grid, Flexbox e Media Queries) → Responsividade e layout adaptável.  
+• Boa Prática de Design Responsivo → Adaptação para diferentes resoluções de tela.   
 
 ## Link para o repositório  
 [Web_project_homeland no GitHub](<>)
