@@ -17,5 +17,5 @@ Este projeto foi desenvolvido como parte do apredizado sugerido pelo bootcaamp d
 • Boa Prática de Design Responsivo → Adaptação para diferentes resoluções de tela.   
 
 ## Link para o repositório  
-git@github.com:franklynvignny/web_project_homeland.git
+franklynvignny/web_project_homeland.git
 
