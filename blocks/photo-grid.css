@@ -4,38 +4,40 @@
 
 .photo-grid__list{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, 284px);
     grid-template-rows: repeat(2, auto);
-    width: 1184px;
     margin: 118px 48px 92px;
     gap: 16px;
+    justify-content: center;
+}
+
+.photo-grid__item{
+    width: 284px;
+    height: 213px;
 }
 
 
 @media (max-width:1024px) {
     .photo-grid__list{
         margin: 64px 24px 88px;
-        max-width:720px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(auto-fit, 352px);
     } 
 
     .photo-grid__item{
         width: 352px;
-
+        height: 264px;
     }
 }
 
 @media (max-width:544px) {
     .photo-grid__list{
-        max-width: 320px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8,1fr);
-        margin: 38px 16px 0;
+        grid-template-columns: 288px;
+        margin: 38px 16px 62px;
         gap: 12px;
     }  
     
     .photo-grid__item{
         width: 288px;
+        height: 216px;
     }
 }
