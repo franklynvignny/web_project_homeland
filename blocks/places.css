@@ -104,7 +104,6 @@
     }
 
         .places__content{
-            max-width: 720px;
             grid-template-rows: auto 340px auto;
             grid-gap: 48px 28px;
             margin-bottom: 72px;
