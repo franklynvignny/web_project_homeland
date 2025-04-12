@@ -16,8 +16,8 @@
     height: 213px;
 }
 
-
 @media (max-width:1024px) {
+
     .photo-grid__list{
         margin: 64px 24px 88px;
         grid-template-columns: repeat(auto-fit, 352px);
@@ -25,9 +25,10 @@
 
     .photo-grid__item{
         width: 352px;
-        height: 264px;
     }
 }
+
+
 
 @media (max-width:544px) {
     .photo-grid__list{
@@ -38,6 +39,5 @@
     
     .photo-grid__item{
         width: 288px;
-        height: 216px;
     }
 }

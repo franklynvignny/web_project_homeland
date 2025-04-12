@@ -43,7 +43,7 @@
 
 .places__description{
     grid-area: description; 
-    max-width: 484px;
+    width: 484px;
 }
 
 .places__paragraph{
@@ -96,11 +96,10 @@
    margin: 0;
 }
 
-@media(max-width:1024px){
+@media screen and (max-width:1024px){
 
     .places{
         max-width: 720px;
-        margin: 0 auto;
     }
 
         .places__content{
@@ -110,22 +109,22 @@
         }
 
         .places__title{
-            width: 340px;
+            max-width: 340px;
             font-size: 42px;
             line-height: 46px;
         }
 
         .places__website{
-            width: 352px;
+            max-width: 352px;
         }
 
         .places__image{
-            width: 340px;
+            max-width: 340px;
             height: 340px;
         }
 
         .places__description{
-            max-width: 352px;
+            width: 352px;
         }
 
         .places__paragraph{
@@ -138,59 +137,62 @@
         }
 }
 
-
-@media (max-width:544px){
+@media (max-width:765px){
     .places{
-        margin: 62px 0 104px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    } 
+
+    .places__content{
+        justify-content: center;
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(5, auto);   
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "description"
+        "button";  
+        gap: 30px;
+        margin-bottom: 50px;           
+      }
+
+      .places__image{
+        grid-area: image; 
+        width: 320px;
     }
-        .places__content{
-            grid-template-columns: 322px;
-            grid-template-rows: 1fr;   
-            grid-template-areas: 
-            "title"
-            "website"
-            "image"
-            "description"
-            "button";  
-            gap: 30px;
-            margin-bottom: 50px;           
-          }
 
-        .places__title{
-            font-size: 32px;
-            line-height: 35px; 
-            max-width: 288px;
-            margin: 0 16px;
-        }
+    .places__button{
+        font-size: 14px;  
+        max-width: 288px;
+        margin: 0 16px;
+        text-align: center;
+    }
+    .places__title{
+        grid-area: title;
+        font-size: 32px;
+        line-height: 35px; 
+        max-width: 288px;
+        margin: 0 16px;
+    }
 
-        .places__website{
-            margin: 0 16px;
-        }
+    .places__website{
+        margin: 0 16px;
+    }
 
-        .places__url-heading{
-            margin-bottom: 8px;
-        }
+    .places__description{ 
+        width: 288px; 
+        margin: 0 16px; 
+    }
 
-        .places__artist{
-            line-height: 22px;
-            width: 288px;
-        }
+    .places__url-heading{
+        margin-bottom: 8px;
+    }
 
-        .places__description{ 
-            margin: 0 16px; 
-        }
-
-        .places__image{
-            width: 320px;
-        }
-
-        .places__button{
-            font-size: 14px;  
-            max-width: 288px;
-            margin: 0 16px;
-            text-align: center;
-          
-        }
-    }    
-              
-        
+    .places__artist{
+        line-height: 22px;
+        width: 288px;
+    }
+}

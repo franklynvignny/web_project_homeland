@@ -79,9 +79,10 @@
 
 @media (max-width:544px) { 
     .intro{
+        align-content: center;
         width:288px;
         height: 878px;
-        margin: 64px 16px 0;
+        margin: 64px 16px 38px;
     }
 
     .intro__text-title{

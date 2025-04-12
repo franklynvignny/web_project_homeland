@@ -1,4 +1,6 @@
-# EditorConfig é útil para manter estilos de codificação consistentes entre diferentes editores e IDEs
+# http://editorconfig.org
+
+#
 root = true
 
 [*]
@@ -20,3 +22,5 @@ indent_size = 2
 
 [*.md]
 trim_trailing_whitespace = false
+
+
